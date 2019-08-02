@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLox", "CsharpLox\CsharpLox.csproj", "{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpLox", "CsharpLox\CsharpLox.csproj", "{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLoxTest", "CsharpLoxTest\CsharpLoxTest.csproj", "{DAB4876B-08C2-4A83-86FE-A0F80DD048F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7} = {75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75F269DB-ABA5-4ED9-A4C0-94E46DA52EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB4876B-08C2-4A83-86FE-A0F80DD048F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB4876B-08C2-4A83-86FE-A0F80DD048F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB4876B-08C2-4A83-86FE-A0F80DD048F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB4876B-08C2-4A83-86FE-A0F80DD048F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
